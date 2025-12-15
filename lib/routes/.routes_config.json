@@ -1,0 +1,133 @@
+{
+  "routes": [
+    {
+      "className": "ProfileTab",
+      "filePath": "tabs/profile.dart",
+      "routeType": "page",
+      "routePath": "/tabs/profile",
+      "segments": [
+        "tabs"
+      ],
+      "fileName": "profile",
+      "isDynamic": false,
+      "isCatchAll": false,
+      "isRouteGroup": false
+    },
+    {
+      "className": "ForYou",
+      "filePath": "tabs/feed/for-you/index.dart",
+      "routeType": "page",
+      "routePath": "/tabs/feed/for-you",
+      "segments": [
+        "tabs",
+        "feed",
+        "for-you"
+      ],
+      "fileName": "index",
+      "isDynamic": false,
+      "isCatchAll": false,
+      "isRouteGroup": false
+    },
+    {
+      "className": "SettingsTab",
+      "filePath": "tabs/settings.dart",
+      "routeType": "page",
+      "routePath": "/tabs/settings",
+      "segments": [
+        "tabs"
+      ],
+      "fileName": "settings",
+      "isDynamic": false,
+      "isCatchAll": false,
+      "isRouteGroup": false
+    },
+    {
+      "className": "IndexPage",
+      "filePath": "index.dart",
+      "routeType": "page",
+      "routePath": "/",
+      "segments": [],
+      "fileName": "index",
+      "isDynamic": false,
+      "isCatchAll": false,
+      "isRouteGroup": false
+    },
+    {
+      "className": "AboutPage",
+      "filePath": "about.dart",
+      "routeType": "page",
+      "routePath": "/about",
+      "segments": [],
+      "fileName": "about",
+      "isDynamic": false,
+      "isCatchAll": false,
+      "isRouteGroup": false
+    },
+    {
+      "className": "ProfilePage",
+      "filePath": "profile/[profileId]/index.dart",
+      "routeType": "page",
+      "routePath": "/profile/:profileId",
+      "segments": [
+        "profile",
+        "[profileId]"
+      ],
+      "fileName": "index",
+      "isDynamic": true,
+      "isCatchAll": false,
+      "isRouteGroup": false
+    },
+    {
+      "className": "CollectionsCollectionIdPage",
+      "filePath": "profile/[profileId]/collections/[collectionId].dart",
+      "routeType": "page",
+      "routePath": "/profile/:profileId/collections/:collectionId",
+      "segments": [
+        "profile",
+        "[profileId]",
+        "collections"
+      ],
+      "fileName": "[collectionId]",
+      "isDynamic": true,
+      "isCatchAll": false,
+      "isRouteGroup": false
+    },
+    {
+      "className": "GeneralPage",
+      "filePath": "profile/general.dart",
+      "routeType": "page",
+      "routePath": "/profile/general",
+      "segments": [
+        "profile"
+      ],
+      "fileName": "general",
+      "isDynamic": false,
+      "isCatchAll": false,
+      "isRouteGroup": false
+    }
+  ],
+  "lastUpdate": "2025-12-15T13:42:03.159326",
+  "layouts": [
+    {
+      "className": "Tabs",
+      "filePath": "tabs/_layout.dart",
+      "directory": "tabs",
+      "layoutType": "indexed",
+      "routes": []
+    },
+    {
+      "className": "FeedIndexedTab",
+      "filePath": "tabs/feed/_layout.dart",
+      "directory": "tabs/feed",
+      "layoutType": "indexed",
+      "routes": []
+    },
+    {
+      "className": "ForYouStacked",
+      "filePath": "tabs/feed/for-you/_layout.dart",
+      "directory": "tabs/feed/for-you",
+      "layoutType": "stack",
+      "routes": []
+    }
+  ]
+}
